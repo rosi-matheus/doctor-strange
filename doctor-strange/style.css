@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    /* Scroll-behavior com valor smooth deixa suave a movimentação 
+    ao clicar em qualquer link que levará para esta página web */
+    scroll-behavior:smooth;
+}
+
+h4{
+    font-size:30px;
+}
+
+p{
+    font-size:24px;
+}
+
+/* Header */
+header{
+    background-color:#610B21;
+    color:white;
+    width:100%;
+    height:10vh;
+    display:flex;
+    align-items:center; 
+    justify-content:center;  
+}
+
+header div{
+    width:250px;
+    height:10vh;
+    display:flex;
+    justify-content:center;
+    position:absolute;
+    left:0;
+}
+
+nav{
+    font-size:26px;
+    position:absolute;
+    right:100px;
+}
+
+nav ul{
+    display:flex;
+    gap:40px;
+    list-style-type:none;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;  
+}
+
+nav a:hover{
+    color:#BDBDBD;
+}
+
+/* Banner section */
+.banner{
+    background-image:url("assets/banner.png");
+    width:100%;
+    height:100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+.banner h1{
+    color:white;
+    background-color:black;
+    padding:10px 5px;
+    font-size:40px;
+}
+
+.banner h2{
+    color:white;
+    background-color:#610B21;
+    padding:10px 40px;
+    font-size:32px;
+}
+
+.text{
+    position:absolute;
+    top:40%;
+    left:35%;
+    text-align:center;
+    font-size:22px;
+}
+
+/* Images section */
+.images{
+    width:100%;
+   margin-bottom:20px;
+}
+
+.images div{
+    width:60%;
+    margin:20px auto;
+}
+
+.images h4{
+    margin-bottom:20px;
+}
+
+.three-images{
+    display:flex;    
+}
+
+figure{
+    margin-left:10px;
+}
+
+figure:hover{
+    box-shadow: 0 0 20px #610B21;
+    border-radius:20px; 
+}
+
+figure img{
+    width:100%;
+    border-radius:20px;
+}
+
+figcaption{
+   font-size:20px;
+   font-weight:bold;
+   text-align:center;
+   border:1px solid black;
+   padding:5px; 
+   border-radius:10px;
+}
+
+/* Second-banner section */
+.second-banner{
+    background-image:url("assets/dr-strange-2-second-banner.webp");
+    width:100%;
+    height:30vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+/* Sinopse */
+.sinopse{
+    margin:20px auto;
+    width:60%;
+}  
+
+.sinopse h4{
+    margin-bottom:20px;
+}
+
+.movie{
+    width:300px;
+    text-align:center;
+    background-color:#585858;
+    color:white;
+    font-weight:bold;
+    padding:5px 10px;
+    margin-top:20px; 
+}
+
+/* Rodapé */
+footer{
+    width:100%;
+    background-color:#610B21;
+    color:#E6E6E6;
+    font-size:10px;
+    text-align:center;
+    padding:20px 10px;
+}
+
+footer span{
+    font-weight:bold;
+}
+
